@@ -1,8 +1,14 @@
 RadarHD creates high resolution *lidar-like point clouds* from just a single-chip, cheap mmWave radar. This enables high quality perception even in vision/lidar denied scenarios such as in smoke or fog. For example: think of a futuristic fire fighting robot performing search and rescue in a smoky environment. This repository hosts files pertaining to this project that appeared in IEEE ICRA 2023. 
 
 [Paper link](https://akarsh-prabhakara.github.io/files/radarhd-icra23.pdf) |
-[Project website](https://akarsh-prabhakara.github.io/projects/radarhd/) |
-[Demo link](https://www.youtube.com/watch?v=me8ozpgyy0M)
+[Demo link](https://www.youtube.com/watch?v=me8ozpgyy0M) |
+[Project website](https://akarsh-prabhakara.github.io/projects/radarhd/)
+
+
+<p align="center">
+  <img src=./overview.png />
+</p>
+
 
 ---
 
@@ -34,7 +40,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
         cd /radarhd/
         sh install.sh
 
-- For testing on pre-trained model [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) and test images in [`dataset_5/test/](./dataset_5/test/) <br>
+- For testing on pre-trained model [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) and test images in [`dataset_5/test/`](./dataset_5/test/) <br>
 
         python3 test_radarhd.py
     
