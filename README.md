@@ -4,14 +4,11 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 [Demo link](https://www.youtube.com/watch?v=me8ozpgyy0M) |
 [Project website](https://akarsh-prabhakara.github.io/projects/radarhd/)
 
-RadarHD Overview:
+# RadarHD Overview
 
 <p align="center">
   <img src="./imgs/teaser.png" />
 </p>
-
-
----
 
 # Pre-requisites
 
