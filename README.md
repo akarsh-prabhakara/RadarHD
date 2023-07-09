@@ -1,4 +1,4 @@
-This repository hosts files pertaining to RadarHD project. RadarHD creates high resolution *lidar-like point clouds* from just a single-chip, cheap mmWave radar. This enables high quality perception even in vision/lidar denied scenarios such as in smoke or fog. For example: think of a futuristic fire fighting robot performing search and rescue in a smoky environment.
+RadarHD creates high resolution *lidar-like point clouds* from just a single-chip, cheap mmWave radar. This enables high quality perception even in vision/lidar denied scenarios such as in smoke or fog. For example: think of a futuristic fire fighting robot performing search and rescue in a smoky environment. This repository hosts files pertaining to RadarHD project that appeared in IEEE ICRA 2023. 
 
 [Paper link](https://akarsh-prabhakara.github.io/files/radarhd-icra23.pdf) |
 [Project website](https://akarsh-prabhakara.github.io/projects/radarhd/) |
@@ -6,7 +6,7 @@ This repository hosts files pertaining to RadarHD project. RadarHD creates high 
 
 ---
 
-Pre-requisites
+# Pre-requisites
 
 - Install [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - Clone this repository to `project_root`
@@ -14,7 +14,7 @@ Pre-requisites
 - [Optional] Download the raw radar and lidar [dataset](). `dataset_5` contains a processed version of this raw dataset to help users train and test quickly. 
 - Matlab (Only for point cloud error evaluation).
 
-Repository structure
+# Repository structure
 
 - `install.sh` installs all dependencies.
 - `train_radarhd.py` and `test_radarhd.py` are used for training and testing our models. 
@@ -23,7 +23,7 @@ Repository structure
 - `eval/` contains scripts for evaluating RadarHD's generated upsampled radar images.
 - `create_dataset/` contains scripts that show our pre-ML radar and lidar processing on raw sensor data. Use this only for creating your own radar-lidar images dataset (similar to `dataset_5`) to train with our models.
 
-Usage
+# Usage
 
 - Create a Docker environment <br>
 
@@ -66,4 +66,18 @@ Usage
     - Generate quantitative point cloud comparison in Matlab (similar to `eval/cdf.jpg`)
 
             pc_compare.m
+
+# Citation
+
+If you found this work useful, please consider citing this work as:
+
+    @INPROCEEDINGS{10161429,
+    author={Prabhakara, Akarsh and Jin, Tao and Das, Arnav and Bhatt, Gantavya and Kumari, Lilly and Soltanaghai, Elahe and Bilmes, Jeff and Kumar, Swarun and Rowe, Anthony},
+    booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
+    title={High Resolution Point Clouds from mmWave Radar}, 
+    year={2023},
+    volume={},
+    number={},
+    pages={4135-4142},
+    doi={10.1109/ICRA48891.2023.10161429}}
 
