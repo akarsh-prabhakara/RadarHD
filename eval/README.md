@@ -5,7 +5,6 @@
 - Executing [`test_radarhd.py`](./test_radarhd.py) will create generated upsampled radar and ground truth lidar images in polar format for all the test data in the corresponding log folder. (Default: [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/))
 - Convert polar images to cartesian.
 
-        cd ./eval/
         python3 pol_to_cart.py
     
     The output of this is stored in for example, [`processed_imgs_13_1_20220320-034822_test_imgs/`](./processed_imgs_13_1_20220320-034822_test_imgs/).

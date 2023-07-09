@@ -1,4 +1,4 @@
-// This is a helper file to compute various point cloud comparison metrics
+% This is a helper file to compute various point cloud comparison metrics
 
 function distance = pc_distance(pc_A, pc_B, type, bin_size)
     pc_A = bin_pc(pc_A, bin_size);

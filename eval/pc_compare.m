@@ -1,10 +1,10 @@
-// This file enables to compute the qualtitative error metrics for the point clouds created
-// by the output of 'image_to_pcd.py'. It computes the error between ground truth point clouds from lidar and
-// RadarHD generated point clouds. The result is shown as a CDF akin to the result in Fig. 5 in the paper
+% This file enables to compute the qualtitative error metrics for the point clouds created
+% by the output of 'image_to_pcd.py'. It computes the error between ground truth point clouds from lidar and
+% RadarHD generated point clouds. The result is shown as a CDF akin to the result in Fig. 5 in the paper
 
 clear;
 
-root_folder = './processed_imgs_13_1_20230707-152337_test_imgs';
+root_folder = './processed_imgs_13_1_20220320-034822_test_imgs';
 
 trajs = dir(root_folder);
 epoch = '120';

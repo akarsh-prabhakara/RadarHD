@@ -1,5 +1,5 @@
-// This file helps in visualizing thresholded, cartesian format images as point cloud
-// It contrasts the quality of RadarHD output and ground truth label point clouds
+% This file helps in visualizing thresholded, cartesian format images as point cloud
+% It contrasts the quality of RadarHD output and ground truth label point clouds
 
 close all;
 clear;
@@ -12,7 +12,7 @@ epoch = '120';
 figure;
 set(gcf,'position',[0,0,1000,1000])
 
-for i=7:length(trajs)
+for i=3:length(trajs)
     pred_folder = strcat(trajs(i).folder,'/',trajs(i).name,'/',epoch,'/pred/pcd/');    
     pred_file_names = reorder_dir(pred_folder);
     
