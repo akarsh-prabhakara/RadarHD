@@ -4,9 +4,10 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 [Demo link](https://www.youtube.com/watch?v=me8ozpgyy0M) |
 [Project website](https://akarsh-prabhakara.github.io/projects/radarhd/)
 
+RadarHD Overview:
 
 <p align="center">
-  <img src="./teaser.png" />
+  <img src="./imgs/teaser.png" />
 </p>
 
 
@@ -14,8 +15,8 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 
 # Pre-requisites
 
-- Install [Docker](https://docs.docker.com/engine/install/ubuntu/)
-- Clone this repository to `project_root`
+- Install [Docker](https://docs.docker.com/engine/install/ubuntu/).
+- Clone this repository at `project_root`.
 - Download [pre-trained model](https://drive.google.com/file/d/1JorZEkDCIcQDSaMAabvkQX4scvwj0wzn/view?usp=sharing). Move this to [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) folder.
 - [Optional] Download the raw radar and lidar [dataset](). [`dataset_5`](./dataset_5/) contains a processed version of this raw dataset to help users train and test quickly. 
 - Matlab (Only for point cloud error evaluation).
@@ -44,7 +45,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 
         python3 test_radarhd.py
     
-    - For testing with other models and datasets, modify the constants in `test_radarhd.py`.
+    - For testing with other models and datasets, modify the constants in [`test_radarhd.py`](./test_radarhd.py).
     - To test on CPU, make sure to use CPU device.
 
 - For training using params similar to [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) and train images in [`dataset_5/train/`](./dataset_5/train/) <br>
@@ -55,7 +56,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 
 - For evaluating the output of  [`test_radarhd.py`](./test_radarhd.py):
 
-    - Executing [`test_radahd.py`](./test_radarhd.py) will create generated upsampled radar and ground truth lidar images in polar format for all the test data in the corresponding log folder. (Default: [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/))
+    - Executing [`test_radahd.py`](./test_radarhd.py) will create generated upsampled radar and ground truth lidar images in polar format for all the test data in the corresponding log folder. (Default: [`logs/13_1_20220320-034822/test_imgs/`](./logs/13_1_20220320-034822/test_imgs/))
     - Convert polar images to cartesian.
 
             cd ./eval/

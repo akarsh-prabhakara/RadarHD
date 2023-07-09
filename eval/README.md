@@ -2,7 +2,7 @@
 
 [`eval/`](./eval/) contains scripts for evaluating RadarHD's generated upsampled radar images.
 
-- Executing [`test_radarhd.py`](./test_radarhd.py) will create generated upsampled radar and ground truth lidar images in polar format for all the test data in the corresponding log folder. (Default: [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/))
+- Executing [`test_radarhd.py`](./test_radarhd.py) will create generated upsampled radar and ground truth lidar images in polar format for all the test data in the corresponding log folder. (Default: [`logs/13_1_20220320-034822/test_imgs/`](./logs/13_1_20220320-034822/test_imgs/))
 - Convert polar images to cartesian.
 
         python3 pol_to_cart.py

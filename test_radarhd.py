@@ -20,7 +20,7 @@ from train_test_utils.model import *
 params = {
     'model_name': '13',
     'expt': 1,
-    'dt': '20230707-152337',
+    'dt': '20220320-034822',
     'epoch_num': 120,
     'data': 5,
     'gpu': 1,
