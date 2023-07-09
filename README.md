@@ -10,7 +10,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 
 - Install [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - Clone this repository to `project_root`
-- Download [pre-trained model](). Move this to [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) folder.
+- Download [pre-trained model](https://drive.google.com/file/d/1JorZEkDCIcQDSaMAabvkQX4scvwj0wzn/view?usp=sharing). Move this to [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) folder.
 - [Optional] Download the raw radar and lidar [dataset](). [`dataset_5`](./dataset_5/) contains a processed version of this raw dataset to help users train and test quickly. 
 - Matlab (Only for point cloud error evaluation).
 
@@ -18,7 +18,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 
 - [`install.sh`](./install.sh) installs all dependencies.
 - [`train_radarhd.py`](./train_radarhd.py) and [`test_radarhd.py`](./test_radarhd.py) are used for training and testing our models. 
-- Pretrained model is stored in [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/). This model was trained using radar-lidar images dataset in [`dataset_5/`](./dataset_5/). 
+- Pre-trained model is stored in [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/). This model was trained using radar-lidar images dataset in [`dataset_5/`](./dataset_5/). 
 - [`train_test_utils/`](./train_test_utils/) contains model, loss and dataloading definitions for training and testing.
 - [`eval/`](./eval/) contains scripts for evaluating RadarHD's generated upsampled radar images.
 - [`create_dataset/`](./create_dataset/) contains scripts that show our pre-ML radar and lidar processing on raw sensor data. Use this only for creating your own radar-lidar images dataset (similar to [`dataset_5`](./dataset_5/)) to train with our models.
@@ -34,7 +34,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
         cd /radarhd/
         sh install.sh
 
-- For testing on pretrained model [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) and test images in [`dataset_5/test/](./dataset_5/test/) <br>
+- For testing on pre-trained model [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) and test images in [`dataset_5/test/](./dataset_5/test/) <br>
 
         python3 test_radarhd.py
     
