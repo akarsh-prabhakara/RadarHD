@@ -10,18 +10,18 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 
 - Install [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - Clone this repository to `project_root`
-- Download [pre-trained model](). Move this to `logs/13_1_20220320-034822/` folder.
-- [Optional] Download the raw radar and lidar [dataset](). `dataset_5` contains a processed version of this raw dataset to help users train and test quickly. 
+- Download [pre-trained model](). Move this to [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) folder.
+- [Optional] Download the raw radar and lidar [dataset](). [`dataset_5`](./dataset_5/) contains a processed version of this raw dataset to help users train and test quickly. 
 - Matlab (Only for point cloud error evaluation).
 
 # Repository structure
 
-- `install.sh` installs all dependencies.
-- `train_radarhd.py` and `test_radarhd.py` are used for training and testing our models. 
-- Pretrained model is stored in `logs/13_1_20220320-034822/`. This model was trained using radar-lidar images dataset in `dataset_5/`. 
-- `train_test_utils` contains model, loss and dataloading definitions to help training and testing.
-- `eval/` contains scripts for evaluating RadarHD's generated upsampled radar images.
-- `create_dataset/` contains scripts that show our pre-ML radar and lidar processing on raw sensor data. Use this only for creating your own radar-lidar images dataset (similar to `dataset_5`) to train with our models.
+- [`install.sh`](./install.sh) installs all dependencies.
+- [`train_radarhd.py`](./train_radarhd.py) and [`test_radarhd.py`](./test_radarhd.py) are used for training and testing our models. 
+- Pretrained model is stored in [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/). This model was trained using radar-lidar images dataset in [`dataset_5/`](./dataset_5/). 
+- [`train_test_utils/`](./train_test_utils/) contains model, loss and dataloading definitions for training and testing.
+- [`eval/`](./eval/) contains scripts for evaluating RadarHD's generated upsampled radar images.
+- [`create_dataset/`](./create_dataset/) contains scripts that show our pre-ML radar and lidar processing on raw sensor data. Use this only for creating your own radar-lidar images dataset (similar to [`dataset_5`](./dataset_5/)) to train with our models.
 
 # Usage
 
@@ -34,22 +34,22 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
         cd /radarhd/
         sh install.sh
 
-- For testing on pretrained model `logs/13_1_20220320-034822/` and test images in `dataset_5/test/` <br>
+- For testing on pretrained model [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) and test images in [`dataset_5/test/](./dataset_5/test/) <br>
 
         python3 test_radarhd.py
     
     - For testing with other models and datasets, modify the constants in `test_radarhd.py`.
     - To test on CPU, make sure to use CPU device.
 
-- For training using params similar to `logs/13_1_20220320-034822/` and train images in `dataset_5/train/` <br>
+- For training using params similar to [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) and train images in [`dataset_5/train/`](./dataset_5/train/) <br>
 
         python3 train_radarhd.py
 
-    - For training with your own params and datasets, modify the constants in `train_radarhd.py`
+    - For training with your own params and datasets, modify the constants in [`train_radarhd.py`](./train_radarhd.py)
 
-- For evaluating the output of  `test_radarhd.py`:
+- For evaluating the output of  [`test_radarhd.py`](./test_radarhd.py):
 
-    - Executing `test_radahd.py` will create generated upsampled radar and ground truth lidar images in polar format for all the test data in the corresponding log folder. (Default: `logs/13_1_20220320-034822/`)
+    - Executing [`test_radahd.py`](./test_radarhd.py) will create generated upsampled radar and ground truth lidar images in polar format for all the test data in the corresponding log folder. (Default: [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/))
     - Convert polar images to cartesian.
 
             cd ./eval/
@@ -63,7 +63,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 
             pc_vizualize.m
 
-    - Generate quantitative point cloud comparison in Matlab (similar to `eval/cdf.jpg`)
+    - Generate quantitative point cloud comparison in Matlab (similar to [`eval/cdf.jpg`](./eval/cdf.jpg))
 
             pc_compare.m
 
