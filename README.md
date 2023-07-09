@@ -6,7 +6,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 
 
 <p align="center">
-  <img src=./overview.png />
+  <img src="./overview.png" />
 </p>
 
 
