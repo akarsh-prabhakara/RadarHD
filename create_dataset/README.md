@@ -2,7 +2,7 @@
 
 [`create_dataset/`](./create_dataset/) contains scripts that show our pre-ML radar and lidar processing on raw sensor data. Use this only for creating your own radar-lidar images dataset (similar to [`dataset_5`](./dataset_5/)) to train with our models. You can ignore files in this folder if you do not want to create your own dataset.
 
-- First, move your raw radar and lidar data to this [folder](./) in a similar folder structure as [our raw dataset]().
+- First, move your raw radar and lidar data to this [folder](./) in a similar folder structure as [our raw dataset](https://drive.google.com/file/d/1mRclkODAoTNOI7WijItVi9AlSenqVlnJ/view?usp=sharing).
 - [`timestamp_check_radar_lidar.py`](./timestamp_check_radar_lidar.py) checks if the radar and lidar timestamps make sense. 
 
     - We assume that each trajectory was recorded with the lidar capture starting first, radar starting next, and radar finishing first followed by lidar.
@@ -16,4 +16,4 @@
     - We convert the lidar point cloud to a high resolution greyscale image that can be a label for training.
     - We perform range-doppler-azimuth processing to the raw radar frame. We then perform a magnitude based thresholding. We then convert to a polar grey-scale image that can be used as input for the network. Our paper discusses this pre-ML processing in detail in Section. 3A.
 
-- We assume that the radar and lidar packets from the sensors have been processed to be in a structure that is similar to [our raw dataset]().
+- We assume that the radar and lidar packets from the sensors have been processed to be in a structure that is similar to [our raw dataset](https://drive.google.com/file/d/1mRclkODAoTNOI7WijItVi9AlSenqVlnJ/view?usp=sharing).
