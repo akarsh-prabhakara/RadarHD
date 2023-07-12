@@ -15,7 +15,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
 - Install [Docker](https://docs.docker.com/engine/install/ubuntu/).
 - Clone this repository at `project_root`.
 - Download [pre-trained model](https://drive.google.com/file/d/1JorZEkDCIcQDSaMAabvkQX4scvwj0wzn/view?usp=sharing). Move this to [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) folder in the cloned repository.
-- [Optional] Download the raw radar and lidar [dataset](https://drive.google.com/file/d/1mRclkODAoTNOI7WijItVi9AlSenqVlnJ/view?usp=sharing). [`dataset_5`](./dataset_5/) contains a processed version of this raw dataset to help users train and test quickly without needing the raw dataset. 
+- [Optional] Download the raw radar and lidar [dataset](https://drive.google.com/file/d/1mRclkODAoTNOI7WijItVi9AlSenqVlnJ/view?usp=sharing) captured along 44 different trajectories. You can visualize each trajectory and map [here](https://drive.google.com/file/d/1EJVz64IUr-PIVsB-dhhnAU4MpnpdaHrL/view?usp=sharing). [`dataset_5`](./dataset_5/) contains a processed version of this raw dataset to help users train and test quickly without needing to process the raw dataset by themselves. 
 - Matlab (Only for point cloud error evaluation).
 
 # Repository structure
