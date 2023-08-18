@@ -38,6 +38,7 @@ RadarHD creates high resolution *lidar-like point clouds* from just a single-chi
         cd /radarhd/
         sh install.sh
 
+    - When prompted, be sure to setup time zone as US Eastern. This avoids any time zone related [`issues`](https://github.com/akarsh-prabhakara/RadarHD/issues/2) that show up during dataset creation. 
 - For testing on pre-trained model [`logs/13_1_20220320-034822/`](./logs/13_1_20220320-034822/) and test images in [`dataset_5/test/`](./dataset_5/test/) <br>
 
         python3 test_radarhd.py
