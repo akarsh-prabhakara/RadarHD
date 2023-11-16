@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<apiname_channel_cfg>
+		<param name="rx0En" value="1" />
+		<param name="cascadeMode" value="0" />
+		<param name="tx0En" value="1" />
+		<param name="rx1En" value="1" />
+		<param name="tx1En" value="1" />
+		<param name="rx2En" value="1" />
+		<param name="tx2En" value="1" />
+		<param name="rx3En" value="1" />
+	</apiname_channel_cfg>
+	<apiname_adc_cfg>
+		<param name="bitsVal" value="2" />
+		<param name="IQSwap" value="0" />
+		<param name="formatVal" value="2" />
+	</apiname_adc_cfg>
+	<apiname_lp_cfg>
+		<param name="lpAdcMode" value="1" />
+	</apiname_lp_cfg>
+	<apiname_freqlimit_cfg>
+		<param name="freqLimitHigh" value="81.0" />
+		<param name="freqLimitLow" value="77" />
+	</apiname_freqlimit_cfg>
+	<apiname_rfldobypass_cfg>
+		<param name="RFLdoByPass" value="0" />
+	</apiname_rfldobypass_cfg>
+	<apiname_radarmisccontrol_cfg>
+		<param name="PerChirpPhaseShiftEna" value="0" />
+	</apiname_radarmisccontrol_cfg>
+	<apiname_calmonfreqtxpowlimit_cfg>
+		<param name="freqLimitLowTx1" value="77" />
+		<param name="freqLimitHighTx2" value="81.0" />
+		<param name="freqLimitLowTx0" value="77" />
+		<param name="tx0PowerBackoff" value="0" />
+		<param name="tx1PowerBackoff" value="0" />
+		<param name="freqLimitHighTx0" value="81.0" />
+		<param name="tx2PowerBackoff" value="0" />
+		<param name="freqLimitLowTx2" value="77" />
+		<param name="freqLimitHighTx1" value="81.0" />
+	</apiname_calmonfreqtxpowlimit_cfg>
+	<apiname_datapath_cfg>
+		<param name="pkt0VChannelNo" value="0" />
+		<param name="dataCfgFmt1" value="0" />
+		<param name="dataCfgFmt0" value="0" />
+		<param name="dataPathCfgPath" value="1" />
+		<param name="pkt1VChannelNo" value="0" />
+	</apiname_datapath_cfg>
+	<apiname_clock_cfg>
+		<param name="laneClock" value="1" />
+		<param name="dataRate" value="1" />
+	</apiname_clock_cfg>
+	<apiname_lvdslane_cfg>
+		<param name="lane4En" value="0" />
+		<param name="lane2En" value="1" />
+		<param name="lane3En" value="0" />
+		<param name="lane1En" value="1" />
+		<param name="lvdsPacketEndPulse" value="0" />
+		<param name="lvdsCrcEn" value="0" />
+		<param name="laneFormat" value="0" />
+		<param name="lvdsMsbFirst" value="1" />
+	</apiname_lvdslane_cfg>
+	<apiname_csi2lane_cfg>
+		<param name="clockPol" value="0" />
+		<param name="lane2Pos" value="4" />
+		<param name="lane1Pos" value="2" />
+		<param name="lane0Pos" value="1" />
+		<param name="lane0Pol" value="0" />
+		<param name="lane1Pol" value="0" />
+		<param name="lane2Pol" value="0" />
+		<param name="lane3Pos" value="5" />
+		<param name="lane3Pol" value="0" />
+		<param name="clockPos" value="3" />
+	</apiname_csi2lane_cfg>
+	<apiname_testpatterngen_cfg>
+		<param name="testPatternPktSize" value="0" />
+		<param name="testPatternRx2QCFGStartOffset" value="0" />
+		<param name="testPatternRx0ICFGStartOffset" value="0" />
+		<param name="testPatternRx3QCFGVal" value="0" />
+		<param name="numTestPatternPkts" value="0" />
+		<param name="testPatternRx1QCFGStartOffset" value="0" />
+		<param name="testPatternRx2QCFGVal" value="0" />
+		<param name="testPatternGenCtl" value="0" />
+		<param name="testPatternRx3QCFGStartOffset" value="0" />
+		<param name="testPatternRx0QCFGVal" value="0" />
+		<param name="testPatternRx0ICFGVal" value="0" />
+		<param name="testPatternRx1QCFGVal" value="0" />
+		<param name="testPatternRx2ICFGVal" value="0" />
+		<param name="testPatternRx0QCFGStartOffset" value="0" />
+		<param name="testPatternRx1ICFGStartOffset" value="0" />
+		<param name="testPatternRx3ICFGStartOffset" value="0" />
+		<param name="testPatternGenTime" value="0" />
+		<param name="testPatternRx3ICFGVal" value="0" />
+		<param name="testPatternRx2ICFGStartOffset" value="0" />
+		<param name="testPatternRx1ICFGVal" value="0" />
+	</apiname_testpatterngen_cfg>
+	<apiname_testsource_cfg>
+		<param name="obj2PosY" value="327" />
+		<param name="obj1AntPosRx1X" value="0" />
+		<param name="obj1AntPosRx1Z" value="0" />
+		<param name="obj2Sig" value="-95" />
+		<param name="obj1VelY" value="0" />
+		<param name="obj2VelZ" value="0" />
+		<param name="obj1PosZ" value="0" />
+		<param name="obj1PosY" value="3" />
+		<param name="obj2PosZ" value="0" />
+		<param name="obj1BMaxZ" value="327" />
+		<param name="obj1BMaxX" value="327" />
+		<param name="obj1BMaxY" value="327" />
+		<param name="obj1AntPosRx4Z" value="0" />
+		<param name="obj1AntPosRx2Z" value="0" />
+		<param name="obj1AntPosRx3Z" value="0" />
+		<param name="obj1VelX" value="0" />
+		<param name="obj1AntPosRx3X" value="1" />
+		<param name="obj1PosX" value="4" />
+		<param name="obj2BMaxZ" value="327" />
+		<param name="obj2BMaxX" value="327" />
+		<param name="obj2BMaxY" value="327" />
+		<param name="obj1BMinZ" value="-327.6" />
+		<param name="obj1BMinX" value="-327.6" />
+		<param name="obj1BMinY" value="0" />
+		<param name="obj1AntPosTx2X" value="0" />
+		<param name="obj1AntPosTx3X" value="0" />
+		<param name="obj1Sig" value="-2.5" />
+		<param name="obj1AntPosTx1X" value="0" />
+		<param name="obj1VelZ" value="0" />
+		<param name="obj2VelX" value="0" />
+		<param name="obj2BMinZ" value="-327" />
+		<param name="obj2BMinX" value="-327" />
+		<param name="obj2BMinY" value="0" />
+		<param name="obj2PosX" value="327" />
+		<param name="obj1AntPosTx2Z" value="0" />
+		<param name="obj1AntPosTx3Z" value="0" />
+		<param name="obj2VelY" value="0" />
+		<param name="obj1AntPosTx1Z" value="0" />
+		<param name="obj1AntPosRx4X" value="1.5" />
+		<param name="obj1AntPosRx2X" value="0.5" />
+	</apiname_testsource_cfg>
+	<apiname_profile_cfg>
+		<param name="rampEndTime" value="63.14" />
+		<param name="adcStartTimeConst" value="6" />
+		<param name="hpfCornerFreq1" value="0" />
+		<param name="freqSlopeConst" value="63.343" />
+		<param name="rxGain" value="30" />
+		<param name="numAdcSamples" value="512" />
+		<param name="tx1OutPowerBackoffCode" value="0" />
+		<param name="tx2OutPowerBackoffCode" value="0" />
+		<param name="pprofileId" value="0" />
+		<param name="tx3OutPowerBackoffCode" value="0" />
+		<param name="hpfCornerFreq2" value="0" />
+		<param name="tx1PhaseShifter" value="0" />
+		<param name="tx2PhaseShifter" value="0" />
+		<param name="startFreqConst" value="77.0" />
+		<param name="retainRxCalLUT" value="0" />
+		<param name="vcoSelect" value="0" />
+		<param name="idleTimeConst" value="10.00" />
+		<param name="forceVCOSelect" value="0" />
+		<param name="tx3PhaseShifter" value="0" />
+		<param name="digOutSampleRate" value="9121" />
+		<param name="retainTxCalLUT" value="0" />
+		<param name="txStartTime" value="1.00" />
+		<param name="rfGainTarget" value="0" />
+	</apiname_profile_cfg>
+	<apiname_chirp_cfg>
+		<param name="startFreqVar" value="0" />
+		<param name="cprofileId" value="0" />
+		<param name="tx2Enable" value="0" />
+		<param name="tx3Enable" value="1" />
+		<param name="idleTimeVar" value="0" />
+		<param name="tx1Enable" value="0" />
+		<param name="freqSlopeVar" value="0" />
+		<param name="adcStartTimeVar" value="0" />
+		<param name="chirpEndIdx" value="2" />
+		<param name="chirpStartIdx" value="2" />
+	</apiname_chirp_cfg>
+	<apiname_frame_cfg>
+		<param name="frameCount" value="0" />
+		<param name="testSourceEn" value="0" />
+		<param name="triggerSelect" value="0" />
+		<param name="periodicity" value="50.000000" />
+		<param name="triggerDelay" value="0" />
+		<param name="loopCount" value="64" />
+		<param name="fchirpStartIdx" value="0" />
+		<param name="fchirpEndIdx" value="2" />
+	</apiname_frame_cfg>
+	<apiname_advanceframe_cfg>
+		<param name="numOfSubFrames" value="1" />
+		<param name="sb3noOfAdcSamples" value="1" />
+		<param name="sb4subFramePeriod" value="40" />
+		<param name="sb2brustPeriodicity" value="40" />
+		<param name="sb2numOfLoops" value="128" />
+		<param name="sb4numOfLoops" value="128" />
+		<param name="loopBackCfg" value="0" />
+		<param name="sb4numOfBrust" value="1" />
+		<param name="sb1subFramePeriod" value="40" />
+		<param name="numOfFrames" value="0" />
+		<param name="sb3numOfBrustLoops" value="1" />
+		<param name="sb3chirpStartIdx" value="0" />
+		<param name="sb1chirpStartIdx" value="0" />
+		<param name="sb2chirpStartIdx" value="0" />
+		<param name="sb3brustPeriodicity" value="40" />
+		<param name="sb3chirpStartIdxOffset" value="0" />
+		<param name="sb2noOfAdcSamples" value="1" />
+		<param name="sb4noOfAdcSamples" value="1" />
+		<param name="sb1numOfChirps" value="1" />
+		<param name="sb4chirpStartIdx" value="0" />
+		<param name="sb2numOfBrustLoops" value="1" />
+		<param name="sb1chirpStartIdxOffset" value="0" />
+		<param name="sb2chirpStartIdxOffset" value="0" />
+		<param name="hardwareTrigger" value="0" />
+		<param name="sb4numOfBrustLoops" value="1" />
+		<param name="sb3numOfBrust" value="1" />
+		<param name="sb3subFramePeriod" value="40" />
+		<param name="softwareTrigger" value="1" />
+		<param name="sb1numOfBrust" value="1" />
+		<param name="sb1numOfBrustLoops" value="1" />
+		<param name="sb4forceProfileIdx" value="0" />
+		<param name="sb1brustPeriodicity" value="40" />
+		<param name="sb3numOfLoops" value="128" />
+		<param name="sb3numOfChirps" value="1" />
+		<param name="sb1forceProfileIdx" value="0" />
+		<param name="frameTriggerDelay" value="0" />
+		<param name="sb2numOfChirps" value="1" />
+		<param name="sb2numOfBrust" value="1" />
+		<param name="sb2forceProfileIdx" value="0" />
+		<param name="sb2subFramePeriod" value="40" />
+		<param name="testSourceEn" value="0" />
+		<param name="forceProfileEna" value="0" />
+		<param name="sb4brustPeriodicity" value="40" />
+		<param name="sb1noOfAdcSamples" value="1" />
+		<param name="sb4numOfChirps" value="1" />
+		<param name="sb3forceProfileIdx" value="0" />
+		<param name="sb1numOfLoops" value="128" />
+		<param name="loopBackCfgSubFrameID" value="3" />
+		<param name="sb4chirpStartIdxOffset" value="0" />
+	</apiname_advanceframe_cfg>
+	<apiname_loopbackburst_cfg>
+		<param name="digCorrRxGainPhase" value="0" />
+		<param name="iflLoopBackMag" value="2" />
+		<param name="rfGainTarget" value="0" />
+		<param name="psTx1LoopBackFreq" value="0" />
+		<param name="tx2En" value="0" />
+		<param name="digitalCorrDisable" value="0" />
+		<param name="tx2BackOff" value="0" />
+		<param name="bpmTx0On" value="0" />
+		<param name="bpmTx2Off" value="0" />
+		<param name="loopBackSelect" value="0" />
+		<param name="baseProfileIndex" value="0" />
+		<param name="ifLoopBackFreq" value="0" />
+		<param name="bpmTx1On" value="0" />
+		<param name="paLoopBackFreq" value="2" />
+		<param name="bpmTx2On" value="0" />
+		<param name="tx0En" value="0" />
+		<param name="tx1En" value="0" />
+		<param name="psTx0LoopBackFreq" value="0" />
+		<param name="freqConst" value="77" />
+		<param name="busrtIndex" value="0" />
+		<param name="ps1PGAGainIndex" value="23" />
+		<param name="tx0BackOff" value="0" />
+		<param name="rxGain" value="30" />
+		<param name="ps2PGAGainIndex" value="23" />
+		<param name="bpmTx0Off" value="0" />
+		<param name="slopeConst" value="0" />
+		<param name="bpmTx1Off" value="0" />
+		<param name="tx1BackOff" value="0" />
+	</apiname_loopbackburst_cfg>
+	<apiname_analogmonenable_cfg>
+		<param name="tx2BallBreakMonEna" value="0" />
+		<param name="rxNoiseMonEna" value="0" />
+		<param name="rxIFStageMonEna" value="0" />
+		<param name="reservedMonEna" value="0" />
+		<param name="tx0BPMMonEna" value="0" />
+		<param name="rxIFASaturationMonEna" value="0" />
+		<param name="internalGPADCSignalsMonEna" value="0" />
+		<param name="tx0BallBreakMonEna" value="0" />
+		<param name="internalTX0SignalsMonEna" value="0" />
+		<param name="rxGainPhaseMonEna" value="0" />
+		<param name="internalTX1SignalsMonEna" value="0" />
+		<param name="internalRXSignalsMonEna" value="0" />
+		<param name="tx1PowerMonEna" value="0" />
+		<param name="rxSigImgBandMonEna" value="0" />
+		<param name="temperatureMonEna" value="0" />
+		<param name="internalTX2SignalsMonEna" value="0" />
+		<param name="txGainPhaseMonEna" value="0" />
+		<param name="synthFreqMonEna" value="0" />
+		<param name="tx1BPMMonEna" value="0" />
+		<param name="tx2BPMMonEna" value="0" />
+		<param name="pllControlVolMonEna" value="0" />
+		<param name="tx0PowerMonEna" value="0" />
+		<param name="externalAnalogSignalsMonEna" value="0" />
+		<param name="tx2PowerMonEna" value="0" />
+		<param name="tx1BallBreakMonEna" value="0" />
+		<param name="rxMixerInputPowerMonEna" value="0" />
+		<param name="dccClockFreqMonEna" value="0" />
+		<param name="internalPMCLKLOSignalsMonEna" value="0" />
+	</apiname_analogmonenable_cfg>
+	<apiname_tx0ballbreak_cfg>
+		<param name="tx0BallBreakMonReportingMode" value="0" />
+		<param name="tx0ReflCoeffMagThreshold" value="-9" />
+	</apiname_tx0ballbreak_cfg>
+	<apiname_tx1ballbreak_cfg>
+		<param name="tx1BallBreakMonReportingMode" value="0" />
+		<param name="tx1ReflCoeffMagThreshold" value="-9" />
+	</apiname_tx1ballbreak_cfg>
+	<apiname_tx2ballbreak_cfg>
+		<param name="tx2BallBreakMonReportingMode" value="0" />
+		<param name="tx2ReflCoeffMagThreshold" value="-9" />
+	</apiname_tx2ballbreak_cfg>
+	<apiname_tx0powermon_cfg>
+		<param name="tx0PowerReportingMode" value="0" />
+		<param name="tx0PwAbsErrThreshold" value="1" />
+		<param name="tx0PowerRF3" value="1" />
+		<param name="tx0PwFlatnessThreshold" value="0" />
+		<param name="tx0PwrMonProfileIndex" value="0" />
+		<param name="tx0PowerRF1" value="1" />
+		<param name="tx0PowerRF2" value="1" />
+	</apiname_tx0powermon_cfg>
+	<apiname_tx1powermon_cfg>
+		<param name="tx1PowerReportingMode" value="0" />
+		<param name="tx1PwrMonProfileIndex" value="0" />
+		<param name="tx1PwFlatnessThreshold" value="0" />
+		<param name="tx1PowerRF1" value="1" />
+		<param name="tx1PowerRF2" value="1" />
+		<param name="tx1PwAbsErrThreshold" value="1" />
+		<param name="tx1PowerRF3" value="1" />
+	</apiname_tx1powermon_cfg>
+	<apiname_tx2powermon_cfg>
+		<param name="tx2PwFlatnessThreshold" value="0" />
+		<param name="tx2PwAbsErrThreshold" value="1" />
+		<param name="tx2PowerRF3" value="1" />
+		<param name="tx2PwrMonProfileIndex" value="0" />
+		<param name="tx2PowerRF2" value="1" />
+		<param name="tx2PowerReportingMode" value="0" />
+		<param name="tx2PowerRF1" value="1" />
+	</apiname_tx2powermon_cfg>
+	<apiname_tx0bpmmon_cfg>
+		<param name="tx0BPMPhaseMonErrorThreshold" value="0" />
+		<param name="tx0BPMPhaseMonReportMode" value="0" />
+		<param name="tx0BPMMonRx2" value="1" />
+		<param name="tx0BPMMonRx0" value="1" />
+		<param name="tx0BPMAmplitudeMonErrorThreshold" value="0" />
+		<param name="tx0BPMMonRx1" value="1" />
+		<param name="tx0BPMPhaseMonProfileIndex" value="0" />
+		<param name="tx0BPMMonRx3" value="1" />
+	</apiname_tx0bpmmon_cfg>
+	<apiname_tx1bpmmon_cfg>
+		<param name="tx1BPMMonRx3" value="1" />
+		<param name="tx1BPMMonRx1" value="1" />
+		<param name="tx1BPMPhaseMonProfileIndex" value="0" />
+		<param name="tx1BPMAmplitudeMonErrorThreshold" value="0" />
+		<param name="tx1BPMPhaseMonReportMode" value="0" />
+		<param name="tx1BPMMonRx2" value="1" />
+		<param name="tx1BPMMonRx0" value="1" />
+		<param name="tx1BPMPhaseMonErrorThreshold" value="0" />
+	</apiname_tx1bpmmon_cfg>
+	<apiname_tx2bpmmon_cfg>
+		<param name="tx2BPMPhaseMonErrorThreshold" value="0" />
+		<param name="tx2BPMPhaseMonReportMode" value="0" />
+		<param name="tx2BPMMonRx1" value="1" />
+		<param name="tx2BPMPhaseMonProfileIndex" value="0" />
+		<param name="tx2BPMMonRx3" value="1" />
+		<param name="tx2BPMMonRx2" value="1" />
+		<param name="tx2BPMMonRx0" value="1" />
+		<param name="tx2BPMAmplitudeMonErrorThreshold" value="0" />
+	</apiname_tx2bpmmon_cfg>
+	<apiname_txgainphasemismatchmon_cfg>
+		<param name="rf3TX2TXGainPhaseMismatchOffVal" value="0" />
+		<param name="txGainPhaseMismatchMonRx3" value="1" />
+		<param name="txGainPhaseMismatchMonRx2" value="1" />
+		<param name="txGainPhaseMismatchMonRx1" value="1" />
+		<param name="txGainPhaseMismatchMonRx0" value="1" />
+		<param name="rf3TX2TXPhaseMismatchOffVal" value="0" />
+		<param name="rf2TX2TXGainPhaseMismatchOffVal" value="0" />
+		<param name="rf1TX1TXGainPhaseMismatchOffVal" value="0" />
+		<param name="rf2TX2TXPhaseMismatchOffVal" value="0" />
+		<param name="rf1TX2TXPhaseMismatchOffVal" value="0" />
+		<param name="txGainPhaseMismacthMonTxPhaseMismatchThreshold" value="0" />
+		<param name="txGainPhaseMismacthMonReportingMode" value="0" />
+		<param name="rf1TX0TXPhaseMismatchOffVal" value="0" />
+		<param name="rf2TXGainPhaseMismatchMonBitMask" value="1" />
+		<param name="rf3TX0TXGainPhaseMismatchOffVal" value="0" />
+		<param name="rf1TX1TXPhaseMismatchOffVal" value="0" />
+		<param name="rf2TX0TXGainPhaseMismatchOffVal" value="0" />
+		<param name="txGainPhaseMismacthMonProfileIndex" value="0" />
+		<param name="rf3TXGainPhaseMismatchMonBitMask" value="1" />
+		<param name="rf3TX1TXGainPhaseMismatchOffVal" value="0" />
+		<param name="rf3TX1TXPhaseMismatchOffVal" value="0" />
+		<param name="rf2TX1TXPhaseMismatchOffVal" value="0" />
+		<param name="rf2TX1TXGainPhaseMismatchOffVal" value="0" />
+		<param name="rf1TX2TXGainPhaseMismatchOffVal" value="0" />
+		<param name="rf3TX0TXPhaseMismatchOffVal" value="0" />
+		<param name="rf1TXGainPhaseMismatchMonBitMask" value="1" />
+		<param name="rf2TX0TXPhaseMismatchOffVal" value="0" />
+		<param name="txGainPhaseMismacthMonTxGainMismatchThreshold" value="0" />
+		<param name="tx1GainPhaseMismatchMon" value="1" />
+		<param name="tx0GainPhaseMismatchMon" value="1" />
+		<param name="tx2GainPhaseMismatchMon" value="1" />
+		<param name="rf1TX0TXGainPhaseMismatchOffVal" value="0" />
+	</apiname_txgainphasemismatchmon_cfg>
+	<apiname_analogfaultinjection_cfg>
+		<param name="rxIFStageRx2" value="0" />
+		<param name="txGainInvTx2BPMVal" value="0" />
+		<param name="rxLOAmpRx2Rx3" value="0" />
+		<param name="txGainInvTx1BPMVal" value="0" />
+		<param name="rxHighNoiseRx2" value="0" />
+		<param name="rxHighNoiseRx1" value="0" />
+		<param name="gpadcClkFreqFault" value="0" />
+		<param name="ldoRxLODistFault" value="0" />
+		<param name="txLOAmpTx2" value="0" />
+		<param name="rxGainDropRx3" value="0" />
+		<param name="rxPhaseInvRx2" value="0" />
+		<param name="rxGainDropRx1" value="0" />
+		<param name="rxGainDropRx0" value="0" />
+		<param name="rxHighNoiseRx3" value="0" />
+		<param name="gpadcIntSigMon" value="0" />
+		<param name="txGainInvTxFault" value="0" />
+		<param name="txLOAmpTx0Tx1" value="0" />
+		<param name="txGainInvTx0BPMVal" value="0" />
+		<param name="txGainDropTx1" value="0" />
+		<param name="txGainDropTx0" value="0" />
+		<param name="rxIFStageRx1" value="0" />
+		<param name="txGainDropTx2" value="0" />
+		<param name="rxGainDropRx2" value="0" />
+		<param name="rxIFStageRx3" value="0" />
+		<param name="rxLOAmpRx0Rx1" value="0" />
+		<param name="synthFreqMonOffset" value="0" />
+		<param name="rxHighNoiseRx0" value="0" />
+		<param name="rxIFStageRx0" value="0" />
+		<param name="synthVCOOpenLoop" value="0" />
+		<param name="extAnaSigMon" value="0" />
+		<param name="rxPhaseInvRx1" value="0" />
+		<param name="rxPhaseInvRx0" value="0" />
+		<param name="rxPhaseInvRx3" value="0" />
+	</apiname_analogfaultinjection_cfg>
+	<apiname_rxgainphasemon_cfg>
+		<param name="rf3RX0RXPhaseMismatchOffVal" value="0" />
+		<param name="rf3RX1RXPhaseMismatchOffVal" value="0" />
+		<param name="rf1RX3RXGainMismatchOffVal" value="0" />
+		<param name="rf3RX2RXGainMismatchOffVal" value="0" />
+		<param name="rf2RX1RXPhaseMismatchOffVal" value="0" />
+		<param name="rf3RX3RXPhaseMismatchOffVal" value="0" />
+		<param name="rf2RX3RXGainMismatchOffVal" value="0" />
+		<param name="rxGainPhaseReprotingMode" value="0" />
+		<param name="rxPhaseMismatchThreshold" value="0" />
+		<param name="rf1RX2RXPhaseMismatchOffVal" value="0" />
+		<param name="rf2RX1RXGainMismatchOffVal" value="0" />
+		<param name="rf1RX1RXGainMismatchOffVal" value="0" />
+		<param name="rf2RX2RXPhaseMismatchOffVal" value="0" />
+		<param name="rf2RX3RXPhaseMismatchOffVal" value="0" />
+		<param name="rf2RX2RXGainMismatchOffVal" value="0" />
+		<param name="rf2RX0RXGainMismatchOffVal" value="0" />
+		<param name="rf2RXGainPhaseMonBitMask" value="1" />
+		<param name="rf1RX0RXGainMismatchOffVal" value="0" />
+		<param name="rf1RXGainPhaseMonBitMask" value="1" />
+		<param name="rxGainFlatnessErrThreshold" value="0" />
+		<param name="rxGainMismatchThresholds" value="0" />
+		<param name="rf1RX0RXPhaseMismatchOffVal" value="0" />
+		<param name="rf3RX2RXPhaseMismatchOffVal" value="0" />
+		<param name="rf1RX2RXGainMismatchOffVal" value="0" />
+		<param name="rf1RX1RXPhaseMismatchOffVal" value="0" />
+		<param name="rf3RX3RXGainMismatchOffVal" value="0" />
+		<param name="rf2RX0RXPhaseMismatchOffVal" value="0" />
+		<param name="rf3RX1RXGainMismatchOffVal" value="0" />
+		<param name="rxGainPhaseMonTxSelect" value="0" />
+		<param name="rxGainPhaseMonProfileIndex" value="0" />
+		<param name="rf3RX0RXGainMismatchOffVal" value="0" />
+		<param name="rxGainPhaseAbsErrThreshold" value="0" />
+		<param name="rf3RXGainPhaseMonBitMask" value="1" />
+		<param name="rf1RX3RXPhaseMismatchOffVal" value="0" />
+	</apiname_rxgainphasemon_cfg>
+	<apiname_rxnoisefiguremon_cfg>
+		<param name="rf1RXNoiseMon" value="1" />
+		<param name="rxNoiseFigureThreshold" value="0" />
+		<param name="rf3RXNoiseMon" value="1" />
+		<param name="rf2RXNoiseMon" value="1" />
+		<param name="rxNoiseFigureReportingMode" value="0" />
+		<param name="rxNoiseMonProfileIndex" value="0" />
+	</apiname_rxnoisefiguremon_cfg>
+	<apiname_rxifstagemon_cfg>
+		<param name="rxIFStageHPFCuttoffFreqErrThreshold" value="0" />
+		<param name="rxIFStageReportingMode" value="0" />
+		<param name="rxIFStageMonProfileIndex" value="0" />
+		<param name="rxIFStageLPFCuttoffFreqErrThreshold" value="0" />
+		<param name="rxIFStageIFAGainErrThreshold" value="0" />
+	</apiname_rxifstagemon_cfg>
+	<apiname_rxsaturationdetectormon_cfg>
+		<param name="rxSatDetectorMonSatMonRxChannelMask" value="0" />
+		<param name="rxSatDetectorMonPriTimeSliceDuration" value="0.8" />
+		<param name="rxSatDetectorMonProfileIndex" value="0" />
+		<param name="rxSatDetectorSatMonSelect" value="1" />
+		<param name="rxSatDetectorMonSatMonNumSlice" value="63" />
+	</apiname_rxsaturationdetectormon_cfg>
+	<apiname_rxsignalandimagemon_cfg>
+		<param name="sigImgMonNumSlice" value="63" />
+		<param name="sigImgMonPriTimeSliceNumSamples" value="8" />
+		<param name="sigImgMonProfileIndex" value="0" />
+	</apiname_rxsignalandimagemon_cfg>
+	<apiname_rxmixerinputpowermon_cfg>
+		<param name="rxMixerIpPowMonMinThresholds" value="0" />
+		<param name="rxMixerIpPowMonProfielIdnex" value="0" />
+		<param name="rxMixerIpPowMonMaxThresholds" value="0" />
+		<param name="rxMixerIpPowMonReportingMode" value="0" />
+		<param name="rxMixerIpPowMonTx2Ena" value="0" />
+		<param name="rxMixerIpPowMonTx0Ena" value="0" />
+		<param name="rxMixerIpPowMonTx1Ena" value="0" />
+	</apiname_rxmixerinputpowermon_cfg>
+	<apiname_rxtemperaturemon_cfg>
+		<param name="tempMonDigTempThreshMax" value="0" />
+		<param name="tempMonTempDiffThresh" value="0" />
+		<param name="tempMonDigTempThreshMin" value="0" />
+		<param name="tempMonReportingMode" value="0" />
+		<param name="tempMonAnaTempThreshMax" value="0" />
+		<param name="tempMonAnaTempThreshMin" value="0" />
+	</apiname_rxtemperaturemon_cfg>
+	<apiname_rxsynthfreqerrormon_cfg>
+		<param name="synthFrequencyMonStartTime" value="2.0" />
+		<param name="synthFrequencyMonReportingMode" value="0" />
+		<param name="synthFrequencyProfileIndex" value="0" />
+		<param name="synthFrequencyMonFreqErrorThreshold" value="4000" />
+	</apiname_rxsynthfreqerrormon_cfg>
+	<apiname_rxextanalogsignalmon_cfg>
+		<param name="extAnalogSigMonSigSettlingTimeAnaTest4" value="0" />
+		<param name="extAnalogSigMonSigIPEnaAnaTest4" value="0" />
+		<param name="extAnalogSigMonSigThresholdMinAnaTest3" value="0" />
+		<param name="extAnalogSigMonSigThresholdMaxAnaTest2" value="0" />
+		<param name="extAnalogSigMonSigThresholdMinAnaTest4" value="0" />
+		<param name="extAnalogSigMonSigThresholdMinAnaTest1" value="0" />
+		<param name="extAnalogSigMonSigThresholdMaxAnaVSense" value="0" />
+		<param name="extAnalogSigMonSigBufEnaAnaTest2" value="0" />
+		<param name="extAnalogSigMonSigThresholdMinAnaVSense" value="0" />
+		<param name="extAnalogSigMonSigSettlingTimeAnaVSense" value="0" />
+		<param name="extAnalogSigMonSigSettlingTimeAnaTest2" value="0" />
+		<param name="extAnalogSigMonSigBufEnaAnaTest3" value="0" />
+		<param name="extAnalogSigMonSigThresholdMaxAnaMux" value="0" />
+		<param name="extAnalogSigMonSigBufEnaAnaMux" value="0" />
+		<param name="extAnalogSigMonSigThresholdMaxAnaTest4" value="0" />
+		<param name="extAnalogSigMonSigThresholdMinAnaTest2" value="0" />
+		<param name="extAnalogSigMonSigThresholdMaxAnaTest1" value="0" />
+		<param name="extAnalogSigMonSigThresholdMinAnaMux" value="0" />
+		<param name="extAnalogSigMonReportingMode" value="0" />
+		<param name="extAnalogSigMonSigBufEnaAnaTest4" value="0" />
+		<param name="extAnalogSigMonSigSettlingTimeAnaTest3" value="0" />
+		<param name="extAnalogSigMonSigSettlingTimeAnaMux" value="0" />
+		<param name="extAnalogSigMonSigIPEnaAnaTest3" value="0" />
+		<param name="extAnalogSigMonSigBufEnaAnaTest1" value="0" />
+		<param name="extAnalogSigMonSigThresholdMaxAnaTest3" value="0" />
+		<param name="extAnalogSigMonSigIPEnaVSense" value="0" />
+		<param name="extAnalogSigMonSigIPEnaAnaMux" value="0" />
+		<param name="extAnalogSigMonSigIPEnaAnaTest1" value="0" />
+		<param name="extAnalogSigMonSigIPEnaAnaTest2" value="0" />
+		<param name="extAnalogSigMonSigSettlingTimeAnaTest1" value="0" />
+	</apiname_rxextanalogsignalmon_cfg>
+	<apiname_tx0intanalogsignalmon_cfg>
+		<param name="tx0IntAnalogSigMonReportingMode" value="0" />
+		<param name="tx0IntAnalogSigMonProfileIndex" value="0" />
+	</apiname_tx0intanalogsignalmon_cfg>
+	<apiname_tx1intanalogsignalmon_cfg>
+		<param name="tx1IntAnalogSigMonProfileIndex" value="0" />
+		<param name="tx1IntAnalogSigMonReportingMode" value="0" />
+	</apiname_tx1intanalogsignalmon_cfg>
+	<apiname_tx2intanalogsignalmon_cfg>
+		<param name="tx2IntAnalogSigMonReportingMode" value="0" />
+		<param name="tx2IntAnalogSigMonProfileIndex" value="0" />
+	</apiname_tx2intanalogsignalmon_cfg>
+	<apiname_rxintanalogsignalmon_cfg>
+		<param name="rxIntAnalogSigMonProfileIndex" value="0" />
+		<param name="rxIntAnalogSigMonReportingMode" value="0" />
+	</apiname_rxintanalogsignalmon_cfg>
+	<apiname_pmclklointanalogsignalmon_cfg>
+		<param name="pmCLKLOIntAnalogSigMonProfileIndex" value="0" />
+		<param name="pmCLKLOIntAnalogSigMonReportingMode" value="0" />
+	</apiname_pmclklointanalogsignalmon_cfg>
+	<apiname_gpadcintanalogsignalmon_cfg>
+		<param name="gpadcIntAnalogSigMonReportingMode" value="0" />
+	</apiname_gpadcintanalogsignalmon_cfg>
+	<apiname_pllcontrolvoltagemon_cfg>
+		<param name="pllCtlVolMonSynthVCO2VolControl" value="0" />
+		<param name="pllCtlVolMonReportingMode" value="0" />
+		<param name="pllCtlVolMonSynthVCO1VolControl" value="0" />
+		<param name="pllCtlVolMonAPLLVctl" value="0" />
+	</apiname_pllcontrolvoltagemon_cfg>
+	<apiname_dccmon_cfg>
+		<param name="dccMonClockPair4" value="0" />
+		<param name="dccMonClockPair0" value="0" />
+		<param name="dccMonClockPair5" value="0" />
+		<param name="dccMonReportingMode" value="0" />
+		<param name="dccMonClockPair1" value="0" />
+		<param name="dccMonClockPair3" value="0" />
+		<param name="dccMonClockPair2" value="0" />
+	</apiname_dccmon_cfg>
+</configuration>
